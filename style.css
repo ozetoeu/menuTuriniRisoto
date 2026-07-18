@@ -9,6 +9,8 @@ body{
     background:#000000;
     color:white;
 
+    overflow-x:hidden;
+
 }
 
 .hero{
@@ -117,5 +119,95 @@ footer{
     padding:40px;
 
     color:#888;
+
+}
+
+/* ========================= */
+/* RESPONSIVIDADE */
+/* ========================= */
+
+@media (max-width: 768px){
+
+    .hero{
+        height: 350px;
+        padding: 20px;
+    }
+
+    .conteudo h1{
+        font-size: 38px;
+        letter-spacing: 3px;
+    }
+
+    .logo{
+        width: 130px;
+    }
+
+    .menu{
+        width: 95%;
+        padding: 35px 0;
+    }
+
+    .categoria h2{
+        font-size: 36px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .vinho{
+        font-size: 17px;
+        gap: 10px;
+    }
+
+    .vinho span{
+        font-size: 22px;
+    }
+
+    footer{
+        font-size: 16px;
+        padding: 25px;
+    }
+
+}
+
+@media (max-width: 480px){
+
+    .hero{
+        height: 280px;
+    }
+
+    .conteudo h1{
+        font-size: 28px;
+        letter-spacing: 2px;
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    .categoria h2{
+        font-size: 28px;
+        margin-top: 40px;
+    }
+
+    .vinho{
+
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 5px;
+
+        font-size: 16px;
+    }
+
+    .vinho span{
+
+        font-size: 20px;
+
+    }
+
+    footer{
+        font-size: 14px;
+    }
 
 }
