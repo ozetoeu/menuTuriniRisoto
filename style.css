@@ -88,8 +88,8 @@ body{
 
     align-items:center;
 
-    gap:20px;
-    
+    border-bottom:1px solid rgb(78, 78, 78);
+    margin-bottom: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
@@ -123,5 +123,58 @@ footer{
     padding:40px;
 
     color:#888;
+
+} 
+
+@media (max-width:768px){
+
+    .hero{
+
+        height:300px;
+
+    }
+
+    .conteudo h1{
+
+        font-size:32px;
+
+        letter-spacing:2px;
+
+    }
+
+    .logo{
+
+        width:120px;
+
+    }
+
+    .categoria h2{
+
+        font-size:35px;
+
+        text-align:center;
+
+    }
+
+    .vinho{
+
+        display:flex;
+        justify-content:space-between;
+        align-items:center;
+
+        padding:20px 0;
+
+        border-bottom:1px solid #2a2a2a; /* mantém a linha */
+
+        font-size:16px;
+
+    }
+
+    .vinho span{
+
+        font-size:22px;
+
+    }
+
 
 }
