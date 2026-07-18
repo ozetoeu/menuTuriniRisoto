@@ -82,18 +82,23 @@ body{
 
 .vinho{
 
-    display: flex;
+    display:flex;
 
     justify-content:space-between;
 
-    align-items:flex-start;
+    align-items:center;
 
-    padding:25px 0;
-
-    border-bottom:1px solid #2a2a2a;
+    gap:20px;
 
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.vinho h3{
+
+    flex:1;
+
 }
 
 .categoria h2{
@@ -122,92 +127,48 @@ footer{
 
 }
 
-/* ========================= */
-/* RESPONSIVIDADE */
-/* ========================= */
-
-@media (max-width: 768px){
+@media (max-width:768px){
 
     .hero{
-        height: 350px;
-        padding: 20px;
+
+        height:300px;
+
     }
 
     .conteudo h1{
-        font-size: 38px;
-        letter-spacing: 3px;
+
+        font-size:32px;
+
+        letter-spacing:2px;
+
     }
 
     .logo{
-        width: 130px;
-    }
 
-    .menu{
-        width: 95%;
-        padding: 35px 0;
+        width:120px;
+
     }
 
     .categoria h2{
-        font-size: 36px;
-        margin-top: 50px;
-        text-align: center;
-    }
 
-    .vinho{
-        font-size: 17px;
-        gap: 10px;
-    }
+        font-size:35px;
 
-    .vinho span{
-        font-size: 22px;
-    }
+        text-align:center;
 
-    footer{
-        font-size: 16px;
-        padding: 25px;
-    }
-
-}
-
-@media (max-width: 480px){
-
-    .hero{
-        height: 280px;
-    }
-
-    .conteudo h1{
-        font-size: 28px;
-        letter-spacing: 2px;
-    }
-
-    .logo{
-        width: 100px;
-    }
-
-    .categoria h2{
-        font-size: 28px;
-        margin-top: 40px;
     }
 
     .vinho{
 
-        flex-direction: column;
+        font-size:16px;
 
-        align-items: flex-start;
-
-        gap: 5px;
-
-        font-size: 16px;
     }
 
     .vinho span{
 
-        font-size: 20px;
+        font-size:22px;
 
-    }
+        white-space:nowrap;
 
-    footer{
-        font-size: 14px;
     }
 
 }
