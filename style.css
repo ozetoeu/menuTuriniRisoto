@@ -88,6 +88,8 @@ body{
 
     align-items:center;
 
+    border-bottom:1px solid #3a3a3a;
+
     gap:20px;
     
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
